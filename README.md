@@ -24,7 +24,7 @@
 <img src="img/hri_A4.png" align="left" width="320" alt="esp-wroom-02"/>
 <img src="img/hri_technicke_udaje.png" align="right" width="320" alt="esp-wroom-02"/>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ___
 
