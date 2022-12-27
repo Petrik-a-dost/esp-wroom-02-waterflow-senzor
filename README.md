@@ -29,8 +29,8 @@
 ___
 
 # WeMos ESP-wroom-02
-- pinout desky může být náročné zjistit, protože se to může splést za vystupy na desce POZOR výstup D2 není to stejné jako GPIO2 potom v kódu
-- je tedy potřeba zjistit na jaké výstupty (D1, D2, D3,..) na desce vedou na GPIO, v mém případě podle [Dokumentace](https://www.studiopieters.nl/esp8266-esp-wroom-02-with-18650-battery/?fbclid=IwAR3pYxmAYj-FDfEqrm_vUxPI422bKUUkJtDhnZe3pk4s2nu2D7qoiI4uFco)
+- pinout desky může být náročné zjistit, protože se to může zaměnit za výstupy na desce. POZOR! výstup D2 není to stejné jako GPIO2 potom v kódu
+- je tedy potřeba zjistit na jaké výstupy (D1, D2, D3,..) na desce vedou na GPIO, v mém případě podle [Dokumentace](https://www.studiopieters.nl/esp8266-esp-wroom-02-with-18650-battery/?fbclid=IwAR3pYxmAYj-FDfEqrm_vUxPI422bKUUkJtDhnZe3pk4s2nu2D7qoiI4uFco)
 - já jsem použil pin D2, což je GPIO4
 
 # Zapojení
