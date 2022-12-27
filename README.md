@@ -22,6 +22,8 @@
 
  - v dokumentaci se dozvíte, že pro každé provedení (A1/A2/A3/ a v ném případe A4) mužě být zapojkení trochu jiné.
 
+<img src="img/hri_technicke_udaje.png" align="left" width="320" alt="esp-wroom-02"/>
+<img src="img/hri_A4.png" align="right" width="320" alt="esp-wroom-02"/>
 
 
 
