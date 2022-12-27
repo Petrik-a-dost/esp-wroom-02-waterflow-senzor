@@ -43,7 +43,7 @@ ___
 - Zjistil jsem, že HRI má v sobě baterii takže se HRI napájet nemusí
 - žlutý vodič jsem nepřipojoval, protože v mé variantě A4 je žlutý vodič pro indikaci chyby
 
-# Kod v ESPHome
+# Kód v ESPHome
 
 - jak jsem psal v úvodu tak jsem upravil kód z projektu [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA), ale protože nepoužívám NodeMCU a mám jiný impulzní snímač tak piny mám definované podle [ESPHome Pulse counter](https://esphome.io/components/sensor/pulse_counter.html#wiring)
 - zde jsem použil reed switch mezi GPIO a GND tzn:
@@ -57,7 +57,7 @@ ___
       pullup: true
 ```
 
-# Výsledný kôd
+# Výsledný kód
 
 ```
 esphome:
