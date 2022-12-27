@@ -2,7 +2,11 @@
 
 # Waterflow Senzor Esp-Wroom-02 a impulzuní senzor Sensus HRI
 
-> I jako začátečním v ESPHome a vůbec v HomeAssistant jsem si dovolil udělat návod na meření spotřeby vody, aby když to bude někdo řešit, kdo bude nazačátku v HA, aby se nemusel trápit tako jako já :D Třeba to někomu pomůže.
+> I jako začátečním v ESPHome a vůbec v HomeAssistant jsem si dovolil udělat návod na meření spotřeby vody, aby když to bude někdo řešit, kdo bude nazačátku v HA, aby se nemusel trápit tako jako já :D Takže mě klidně opravte, když bych tu měl chybu.Třeba to někomu pomůže.
+
+### Motivace
+
+- Jelikož se občas vypadne elektrika, ta jsem si říkal, že už bych použil neco s baterry shieldem a vyšlo z toho ESP-Wroom-02 s baterkou 18650
 
 ## Hardware
  
@@ -11,7 +15,7 @@
 
 ## Použití
 
-- vycházel jsem z už existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA){:target="_blank"} - Zde jsem se inspiroval a požil kod a trochu ho poupravil pro potřeby ESP-Wroom-02.
+- vycházel jsem z už existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA) - Zde jsem se inspiroval a požil kod a trochu ho poupravil pro potřeby ESP-Wroom-02.
 
 # EspHome ![ESPHome Badge](https://img.shields.io/badge/ESPHome-000?logo=esphome&logoColor=fff&style=for-the-badge)
 
