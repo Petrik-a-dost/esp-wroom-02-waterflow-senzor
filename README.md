@@ -5,9 +5,9 @@
 
 > I jako začátečním v ESPHome a vůbec v HomeAssistant jsem si dovolil udělat návod na meření spotřeby vody, aby když to bude někdo řešit, kdo bude nazačátku v HA, aby se nemusel trápit tako jako já :D Takže mě klidně opravte, když bych tu měl chybu a třeba to i někomu pomůže.
 
-### Motivace
+### Motivace této desky
 
-- Jelikož se stane, že občas vypadne elektrika, tak jsem si říkal, že už bych použil neco s baterry shieldem a vyšlo z toho ESP-Wroom-02 s baterkou 18650
+- Jelikož se stane, že občas vypadne elektrika, tak jsem si říkal, že už bych použil něco s battery shieldem a vyšlo z toho ESP-Wroom-02 s baterkou 18650
 
 ## Hardware
  
