@@ -20,10 +20,15 @@
 
 # Sensus HRI
 
- - v dokumentaci se dozvíte, že pro každé provedení (A1/A2/A3/ a v ném případe A4) mužě být zapojkení trochu jiné.
+- v dokumentaci se dozvíte, že pro každé provedení (A1/A2/A3/ a v ném případe A4) mužě být zapojkení trochu jiné a vodiče mají jiný význam, proto si to zkontrolujte.
 
-<img src="img/hri_A4.png" width="320" alt="esp-wroom-02"/>
-<img src="img/hri_technicke_udaje.png" width="320" alt="esp-wroom-02"/>
+<img src="img/hri_A4.png" align="left" width="320" alt="esp-wroom-02"/>
+<img src="img/hri_technicke_udaje.png" align="right" width="320" alt="esp-wroom-02"/>
+
+# WeMos ESP-wroom-02
+
+- pinout desky může být náročné zjistit, protože se to může splést za vystupy na desce POZOR výstup D2 není to stejné jako GPIO2 potom v kodu
+- je tedy potřeba zjistit na jaké výstupty na desce vedou GPIO, v mém případě v [Dokumentaci](https://www.studiopieters.nl/esp8266-esp-wroom-02-with-18650-battery/?fbclid=IwAR3pYxmAYj-FDfEqrm_vUxPI422bKUUkJtDhnZe3pk4s2nu2D7qoiI4uFco)
 
 
 
