@@ -9,6 +9,10 @@
 - Deska Sspressif WeMos ESP-wroom-02 s baterií 18650
 - impulzní senzor na vodoměr Sensus HRI varianta A4
 
+## Použití
+
+- vycházel jsem z už existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA) - Zde jsemse inspiroval a požil kod, ale malinko ho upravil pro potřeby ESP-Wroom-02.
+
 # EspHome ![ESPHome Badge](https://img.shields.io/badge/ESPHome-000?logo=esphome&logoColor=fff&style=for-the-badge)
 
 
