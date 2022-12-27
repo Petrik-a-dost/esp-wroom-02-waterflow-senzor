@@ -7,16 +7,18 @@
 
 ### Motivace
 
-- Jelikož se občas vypadne elektrika, ta jsem si říkal, že už bych použil neco s baterry shieldem a vyšlo z toho ESP-Wroom-02 s baterkou 18650
+- Jelikož se stane, že občas vypadne elektrika, tak jsem si říkal, že už bych použil neco s baterry shieldem a vyšlo z toho ESP-Wroom-02 s baterkou 18650
 
 ## Hardware
  
-- Deska Sspressif WeMos ESP-wroom-02 s baterií 18650
-- impulzní senzor na vodoměr Sensus HRI varianta A4
+- Deska Sspressif WeMos ESP-wroom-02 s baterií 18650 [WeMos ESP-WROOM-02 vývojová deska](https://www.laskakit.cz/wemos-esp-wroom-02-vyvojova-deska/)
+- impulzní senzor na vodoměr Sensus HRI varianta A4 [Sensus snímač HRI](https://www.kapka-vodomery.cz/download/vodomery/prislusenstvi/sensus-snimac-hri.pdf)
 
 ## Použití
 
 - vycházel jsem z už existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA) - Zde jsem se inspiroval a požil kod a trochu ho poupravil pro potřeby ESP-Wroom-02.
+
+
 
 
 
