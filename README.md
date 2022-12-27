@@ -16,10 +16,10 @@
 
 ## Použití
 
-- vycházel jsem z již existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA) - Zde jsem se inspiroval a požil kod a trochu ho poupravil pro potřeby ESP-Wroom-02.
+- vycházel jsem z již existujícího projektu, kde je použitá deska NodeMCU: [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA) - Zde jsem se inspiroval, použil kód a trochu ho upravil pro potřeby ESP-Wroom-02.
 
 # Sensus HRI
-- v dokumentaci se dozvíte, že pro každé provedení (A1/A2/A3/ a v ném případe A4) mužě být zapojení trochu jiné a vodiče mají jiný význam, proto si to zkontrolujte.
+- v dokumentaci se dozvíte, že pro každé provedení (A1/A2/A3/ a v ném případe A4) může být zapojení trochu jiné a vodiče mají jiný význam, proto si to zkontrolujte.
 
 <img src="img/hri_A4.png" align="left" width="320" alt="hri_A4"/>
 <img src="img/hri_technicke_udaje.png" align="right" width="320" alt="hri_technicke_udaje"/>
