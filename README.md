@@ -1,10 +1,9 @@
 <img src="img/esp-wroom-02.jpg" align="right" width="400" alt="esp-wroom-02"/>
 
-# Esp-Wroom-02 Waterflow Senzor
+# Waterflow Senzor Esp-Wroom-02 s baterii 18650
 
-# Awesome README [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
-> A curated list of awesome READMEs
-Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+# EspHome ![ESPHome Badge](https://img.shields.io/badge/ESPHome-000?logo=esphome&logoColor=fff&style=for-the-badge)
+> I jako začátečním v ESPHome a vůbec v HomeAssistant jsem si dovolil udělat návod na meření spotřeby vody, aby když to bude někdo řešit, kdo bude nazačátku v HA tak, aby se nemusel trápit tako jako já :D Třeba to někomu pomůže.
 
 ## Examplesddd
 
