@@ -147,6 +147,6 @@ sensor:
 
 # Závěrem
 
-- už stačí jen nastavit zdroj pro měření vody v Energiích a vytisknout krabičku
+- už stačí jen nastavit zdroj pro měření vody v tabu **Energie** a vytisknout krabičku na 3D tiskárně
 - když by někoho napadlo, jak to ještě vylepšit budu rád za jakýkoliv tip
 
