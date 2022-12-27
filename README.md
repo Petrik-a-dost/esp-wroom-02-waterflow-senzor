@@ -1,6 +1,6 @@
 <img src="img/esp-wroom-02.jpg" align="right" width="320" alt="esp-wroom-02"/>
 
-# Waterflow Senzor Esp-Wroom-02 a impulzuní senzor Sensus HRI
+# Waterflow Senzor Esp-Wroom-02 a impulzní senzor Sensus HRI
 ![ESPHome Badge](https://img.shields.io/badge/ESPHome-000?logo=esphome&logoColor=fff&style=for-the-badge)
 
 > I jako začátečním v ESPHome a vůbec v HomeAssistant jsem si dovolil udělat návod na meření spotřeby vody, aby když to bude někdo řešit, kdo bude nazačátku v HA, aby se nemusel trápit tako jako já :D Takže mě klidně opravte, když bych tu měl chybu a třeba to i někomu pomůže.
