@@ -36,7 +36,7 @@ ___
 # Zapojení
 
 <img src="img/zapojeni.png" align="center" width="350" alt="zapojeni"/>
-<br/><br/><br/><br/>
+<br/>
 
 - na pin D2 jsem připojil bílý vodič, což by měl být + (pulzy)
 - na GND jsem připojil hnědý vodič (zem)
