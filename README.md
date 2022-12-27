@@ -40,12 +40,12 @@ ___
 
 - na pin D2 jsem připojil bílý vodič, což by měl být + (pulzy)
 - na GND jsem připojil hnědý vodič (zem)
-- Zjistil jsem, že HRI má v sobě baterii takže se HRI napájet nemusí
+- zjistil jsem, že HRI má v sobě baterii takže se HRI napájet nemusí
 - žlutý vodič jsem nepřipojoval, protože v mé variantě A4 je žlutý vodič pro indikaci chyby
 
 # Kód v ESPHome
 
-- jak jsem psal v úvodu tak jsem upravil kód z projektu [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA), ale protože nepoužívám NodeMCU a mám jiný impulzní snímač tak piny mám definované podle [ESPHome Pulse counter](https://esphome.io/components/sensor/pulse_counter.html#wiring)
+- jak jsem psal v úvodu, tak jsem upravil kód z projektu [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA), ale protože nepoužívám NodeMCU a mám jiný impulzní snímač, tak piny mám definované podle [ESPHome Pulse counter](https://esphome.io/components/sensor/pulse_counter.html#wiring)
 - zde jsem použil reed switch mezi GPIO a GND tzn:
 
 ```
