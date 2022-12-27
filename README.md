@@ -43,7 +43,107 @@ ___
 - Zjistíl jsem, že HRI má v sobě baterii takže se HRI napajet nemusí
 - zlutý vodič jsem nepřipojoval v mé variantě A4 je žlutý vodič pro indikaci chyby
 
+# Kod v ESPHome
 
+- jak jsem psal v úvodu tak jsem upravil kód z projektu [Build a cheap water usage sensor using ESPhome and a proximity sensor](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/?fbclid=IwAR31Jy8ggQwYve9YchUbq6ylLgxr2Dd_sI1BzMqI2mSxeaGAOkKCJtEPZPA), ale protože nepoužívám NodeMCU a mám jiný impulzní snímač tak piny mám definované podle [ESPHome Pulse counter](https://esphome.io/components/sensor/pulse_counter.html#wiring)
+- zde jsem použil reed switch mezi GPIO a GND tzn:
+
+```
+  pin:
+    number: GPIO4
+    inverted: true
+    mode:
+      input: true
+      pullup: true
+```
+
+# Výsledný kôd
+
+```
+esphome:
+  name: waterflow-senzor
+
+esp8266:
+  board: esp_wroom_02
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "XXXXXXXXXXXXXXXXXXXX"
+
+ota:
+  password: "XXXXXXXXXXXXXXXXXXX"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Waterflow-Senzor"
+    password: "XXXXXXXXXXXX"
+
+captive_portal:
+
+sensor:
+- platform: pulse_counter
+  pin:
+    number: GPIO4
+    inverted: true
+    mode:
+      input: true
+      pullup: true
+  update_interval : 6s
+  name: "water pulse"
+  id: water_pulse
+
+- platform: pulse_meter
+  pin:
+    number: GPIO4
+    inverted: true
+    mode:
+      input: true
+      pullup: true
+  name: "Water Pulse Meter"
+  unit_of_measurement: "liter/min"
+  icon: "mdi:water"
+  total:
+    name: "Water Total"
+    unit_of_measurement: "liter"
+
+- platform: pulse_meter
+  pin:
+    number: GPIO4
+    inverted: true
+    mode:
+      input: true
+      pullup: true
+  name: "Water Pulse Meter"
+  unit_of_measurement: "liter/min"
+  icon: "mdi:water"
+  total:
+    name: "Water Meter Total"
+    unit_of_measurement: "m³"
+    id: water_meter_total
+    accuracy_decimals: 3
+    device_class: water
+    state_class: total_increasing
+    filters:
+      - multiply: 0.001
+
+- platform: template
+  name: "Water Usage Liter"
+  id: water_flow_rate
+  accuracy_decimals: 1
+  unit_of_measurement: "l/min"
+  icon: "mdi:water"
+  lambda: return (id(water_pulse).state * 10);
+  update_interval: 6s
+
+```
 
 
 
