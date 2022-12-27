@@ -23,11 +23,11 @@
 
 <img src="img/hri_A4.png" align="left" width="320" alt="esp-wroom-02"/>
 <img src="img/hri_technicke_udaje.png" align="right" width="320" alt="esp-wroom-02"/>
-<br>
+<br><br><br><br>
 
 ---
 
-<br>
+<br><br><br>
 
 # WeMos ESP-wroom-02
 - pinout desky může být náročné zjistit, protože se to může splést za vystupy na desce POZOR výstup D2 není to stejné jako GPIO2 potom v kodu
